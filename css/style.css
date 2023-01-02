@@ -35,13 +35,16 @@ header .navigation .navigation-items a {
     font-size: 1.5em;
     font-weight: 500;
     text-decoration: none;
-    margin-left: 3px;
+    margin-left: 4px;
     transition: 0.3s ease;
+}
+header .navigation .navigation-items a:hover{
+    color: #1DA1F2;
 }
 header .navigation .navigation-items a:before {
     content: '';
     position: absolute;
-    background: #000;
+    background: #1DA1F2;
     width: 0;
     height: 3px;
     bottom: 0;
@@ -50,4 +53,18 @@ header .navigation .navigation-items a:before {
 }
 header .navigation .navigation-items a:hover:before {
     width: 100%;
+}
+
+/* Font awesome icon color change! */
+.fa-youtube{
+    color: #c4302b;
+}
+.fa-twitter{
+    color: #1DA1F2;
+}
+.fa-linkedin{
+    color: #0e76a8;
+}
+.fa-whatsapp{
+    color: #25D366;
 }
