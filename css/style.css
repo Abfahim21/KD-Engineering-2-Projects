@@ -1,5 +1,5 @@
 /* Google font family added for the website, Font family name : Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;900;&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;1,200&display=swap');
 
 *{
     padding: 0;
@@ -48,13 +48,58 @@ header .navigation .navigation-items a:before {
     background: #1DA1F2;
     width: 0;
     height: 3px;
-    bottom: 0;
+    bottom: -2px;
     left: 0;
     transition: 0.7s ease;
 }
 header .navigation .navigation-items a:hover:before {
     width: 100%;
 }
+
+.home {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.home .content {
+    z-index: 888;
+    color: rgb(0, 0, 0);
+    width: 70%;
+    margin-top: 50px;
+}
+.home .content h1 {
+    font-size: 4em;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 75px;
+    margin-bottom: 40px;
+}
+.home .content h1 span {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.home .content p {
+    margin-bottom: 65px;
+}
+.home .content a {
+    background: #fff;
+    padding: 15px 35px;
+    color: #1680AC;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+
+
+
+
+
 
 /* Font awesome icon color change! */
 .fa-youtube{
