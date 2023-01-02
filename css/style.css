@@ -55,6 +55,9 @@ header .navigation .navigation-items a:before {
 header .navigation .navigation-items a:hover:before {
     width: 100%;
 }
+section {
+    padding: 10px 145px;
+}
 
 .home {
     position: relative;
@@ -94,8 +97,24 @@ header .navigation .navigation-items a:hover:before {
     text-decoration: none;
     border-radius: 2px;
 }
-
-
+.home .media-icons {
+    z-index: 888;
+    position: absolute;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.9s ease;
+}
+.home .media-icons a {
+    color: #fff;
+    font-size: 1.7rem;
+}
+.home .media-icons a:not(:last-child){
+    margin-bottom: 20px;
+}
+.home .media-icons a:hover {
+    transform: scale(1.3);
+}
 
 
 
