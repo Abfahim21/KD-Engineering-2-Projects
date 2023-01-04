@@ -119,7 +119,7 @@ section {
 }
 /* Font awesome icon color change! */
 .fa-facebook {
-    color: blue;
+    color: 	#4267B2;
 }
 .fa-youtube{
     color: #c4302b;
@@ -132,6 +132,9 @@ section {
 }
 .fa-whatsapp{
     color: #25D366;
+}
+.fa-phone {
+    color: #15B2F7;
 }
 /* Background Image adding process! */
 .wrapper {
