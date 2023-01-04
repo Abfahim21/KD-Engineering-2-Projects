@@ -19,6 +19,7 @@ header {
     align-items: center;
     padding: 15px 150px;
     transition: 0.5s ease;
+    
 }
 header .brand {
     color:#000;
@@ -137,4 +138,21 @@ section {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+
+
+
+/* About Page CSS coding starts from here! */
+
+.about {
+    padding: 0px 50px 0 50px;
+    margin: 60px 0px 0 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+.about-nav {
+    background-color: #F0CE00;
 }
