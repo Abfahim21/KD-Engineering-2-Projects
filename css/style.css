@@ -22,7 +22,7 @@ header {
     
 }
 header .brand {
-    color:#000;
+    color: #fff;
     font-size: 1.5em;
     font-weight: 700;
     text-transform: uppercase;
@@ -33,20 +33,20 @@ header .navigation {
 }
 header .navigation .navigation-items a {
     position: relative;
-    color: #C5C6C7;
-    font-size: 1.5em;
+    color: #fff;
+    font-size: 1.3em;
     font-weight: 500;
     text-decoration: none;
-    margin-left: 4px;
+    margin-left: 16px;
     transition: 0.3s ease;
 }
 header .navigation .navigation-items a:hover{
-    color: #1DA1F2;
+    color: #FAED26;
 }
 header .navigation .navigation-items a:before {
     content: '';
     position: absolute;
-    background: #1DA1F2;
+    background: #FAED26;
     width: 0;
     height: 3px;
     bottom: -2px;
@@ -81,6 +81,7 @@ section {
     letter-spacing: 5px;
     line-height: 75px;
     margin-bottom: 40px;
+    color: #FAED26;
 }
 .home .content h1 span {
     font-size: 1.2em;
@@ -118,7 +119,7 @@ section {
 }
 /* Font awesome icon color change! */
 .fa-facebook {
-    color: #4267B2;
+    color: blue;
 }
 .fa-youtube{
     color: #c4302b;
@@ -134,7 +135,7 @@ section {
 }
 /* Background Image adding process! */
 .wrapper {
-    background-color: #3AAFA9;
+    background-image: url(../images/kd\ image\ 1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -160,11 +161,14 @@ section {
 .about-photo img {
     width: 520px;
     height: auto;
-    padding: 50px 50px;
+    padding: 30px 50px;
+    border: 1px solid #fff;
+    box-shadow: 10px 30px 30px #CCC;
 }
 .about-description {
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 30px;
 }
