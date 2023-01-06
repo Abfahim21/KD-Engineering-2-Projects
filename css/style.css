@@ -191,3 +191,39 @@ header .navigation .navigation-items a.active {
 .team-nav header {
     background-color: black;
 }
+.team-section {
+    background-color: white;
+    min-height: 100vh;
+    padding: 70px 15px;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.team-section .section-title {
+    flex-basis: 100%;
+    max-width: 100%;
+    margin-bottom: 70px;
+}
+.team-section .section-title h2 {
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    color: black;
+    font-weight: 500;
+}
+.team-section .team-items {
+    background-color: red;
+    flex-basis: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.team-section .team-items .item {
+    background-color: red;
+    flex-basis: 25%;
+}
