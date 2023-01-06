@@ -1,5 +1,6 @@
 /* Google font family added for the website, Font family name : Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;900;&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 *{
     padding: 0;
@@ -151,7 +152,7 @@ header .navigation .navigation-items a.active {
 
 
 
-/* About Page CSS coding starts from here! */
+/*----------About Page CSS coding starts from here!----------*/
 
 .about {
     padding: 0px 50px 0 50px;
@@ -178,7 +179,6 @@ header .navigation .navigation-items a.active {
     justify-content: center;
     padding-left: 30px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .text {
     font-family: 'Lobster', cursive;
     color: black;
@@ -186,57 +186,8 @@ header .navigation .navigation-items a.active {
 
 
 
-/* Team Page CSS coding starts from here! */
+/*----------Team Page CSS coding starts from here!---------- */
 
 .team-nav header {
     background-color: black;
-}
-.team-section {
-    background-color: white;
-    min-height: 100vh;
-    padding: 70px 15px;
-}
-.container {
-    max-width: 1170px;
-    margin: auto;
-}
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-.team-section .section-title {
-    flex-basis: 100%;
-    max-width: 100%;
-    margin-bottom: 70px;
-}
-.team-section .section-title h2 {
-    font-size: 40px;
-    text-align: center;
-    margin: 0;
-    color: black;
-    font-weight: 500;
-}
-.team-section .team-items {
-    background-color: white;
-    flex-basis: 100%;
-    max-width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.team-section .team-items .item {
-    flex-basis: calc( 25% - 30px);
-    max-width: calc( 25% - 30px);
-}
-.team-section .team-items .item img {
-    display: block;
-    width: 100%;
-    border-radius: 8px;
-}
-.team-section .team-items .item .inner {
-    position: relative;
-    z-index: 11;
-}
-.team-section .team-items .item .inner .info {
-    background-color: gray;
 }
