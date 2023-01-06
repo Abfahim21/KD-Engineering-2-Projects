@@ -183,3 +183,11 @@ header .navigation .navigation-items a.active {
     font-family: 'Lobster', cursive;
     color: black;
 }
+
+
+
+/* Team Page CSS coding starts from here! */
+
+.team-nav header {
+    background-color: black;
+}
