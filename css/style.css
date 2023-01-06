@@ -217,13 +217,26 @@ header .navigation .navigation-items a.active {
     font-weight: 500;
 }
 .team-section .team-items {
-    background-color: red;
+    background-color: white;
     flex-basis: 100%;
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 .team-section .team-items .item {
-    background-color: red;
-    flex-basis: 25%;
+    flex-basis: calc( 25% - 30px);
+    max-width: calc( 25% - 30px);
+}
+.team-section .team-items .item img {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+}
+.team-section .team-items .item .inner {
+    position: relative;
+    z-index: 11;
+}
+.team-section .team-items .item .inner .info {
+    background-color: gray;
 }
