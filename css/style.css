@@ -267,7 +267,7 @@ header .navigation .navigation-items a.active {
 .contact-nav header {
     background-color: black;
 }
-.wrapper {
+.contact-wrapper {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -277,25 +277,25 @@ header .navigation .navigation-items a.active {
   }
   
   @media (min-width: 576px) {
-    .wrapper {
+    .contact-wrapper {
       max-width: 540px;
     }
   }
   
   @media (min-width: 768px) {
-    .wrapper {
+    .contact-wrapper {
       max-width: 720px;
     }
   }
   
   @media (min-width: 992px) {
-    .wrapper {
+    .contact-wrapper {
       max-width: 960px;
     }
   }
   
   @media (min-width: 1200px) {
-    .wrapper {
+    .contact-wrapper {
       max-width: 1120px;
       /* background-color: red; */
     }
@@ -408,7 +408,7 @@ header .navigation .navigation-items a.active {
     h4.sub-title {
       font-size: 16px;
       margin: 0;
-      color: yellow;
+      color: #777777;
       font-weight: normal;
     }
   
