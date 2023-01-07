@@ -178,12 +178,22 @@ header .navigation .navigation-items a.active {
     flex-direction: column;
     justify-content: center;
     padding-left: 30px;
+    padding-top: 0px;
 }
 .text {
     font-family: 'Lobster', cursive;
     color: black;
 }
-
+.about-social {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  font-size: 22px;
+}
+.about-social a {
+  padding: 5px;
+}
 
 
 /*----------Team Page CSS coding starts from here!---------- */
@@ -571,3 +581,10 @@ header .navigation .navigation-items a.active {
     .courses-nav header {
       background-color: black;
     }
+
+
+
+
+
+
+    
