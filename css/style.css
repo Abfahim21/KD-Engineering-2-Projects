@@ -557,3 +557,17 @@ header .navigation .navigation-items a.active {
         width: 100%;
       }
     }
+
+    /*----------Service Page CSS coding starts from here!---------- */
+    .service-nav header {
+      background-color: black;
+    }
+
+    /*----------Projects Page CSS coding starts from here!---------- */
+    .projects-nav header {
+      background-color: black;
+    }
+    /*----------Courses Page CSS coding starts from here!---------- */
+    .courses-nav header {
+      background-color: black;
+    }
