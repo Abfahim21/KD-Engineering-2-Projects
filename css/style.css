@@ -572,7 +572,43 @@ header .navigation .navigation-items a.active {
     .service-nav header {
       background-color: black;
     }
+    .services-wrapper {
+      background: #f1f1f1;
+      overflow: hidden;
+      height: 100vh;
+    }
+    .services-wrapper h5 {
+      margin-top: 100px;
+      margin-left: 100px;
+      color: #FAED26;
+      letter-spacing: 1.5px;
+    }
+    .services-wrapper h2 {
+      font-size: 30px;
+      color: #3c3e41;
+      margin-left: 0px;
+      margin-top: 20px;
+    }
+    .services-wrapper .container {
+      width: 1200px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 50px;
+    }
+    .services-wrapper .container  .box {
+      width: 250px;
+      height: 250px;
+      padding: 50px;
+      overflow: hidden;
+      border-radius: 14px;
+      background: linear-gradient(145deg, #e6e6e6, #ffffff);
+      box-shadow: 8px 8px 16px #d1d1d1,
+                  -8px -8px 16px #ffffff;
+      cursor: pointer;
 
+    }
     /*----------Projects Page CSS coding starts from here!---------- */
     .projects-nav header {
       background-color: black;
