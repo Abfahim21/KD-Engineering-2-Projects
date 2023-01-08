@@ -575,13 +575,16 @@ header .navigation .navigation-items a.active {
     .services-wrapper {
       background: #f1f1f1;
       overflow: hidden;
-      height: 100vh;
     }
+    .services-wrapper h1 {
+      text-align: center;
+  }
     .services-wrapper h5 {
-      margin-top: 100px;
-      margin-left: 100px;
+      margin-top: 80px;
+      margin-left: 0;
       color: #FAED26;
       letter-spacing: 1.5px;
+      text-align: center;
     }
     .services-wrapper h2 {
       font-size: 30px;
