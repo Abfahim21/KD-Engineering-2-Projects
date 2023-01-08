@@ -575,6 +575,7 @@ header .navigation .navigation-items a.active {
     .services-wrapper {
       background: #f1f1f1;
       overflow: hidden;
+      padding-bottom: 50px;
     }
     .services-wrapper h1 {
       text-align: center;
